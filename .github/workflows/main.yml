@@ -1,0 +1,27 @@
+name: Deploy
+
+on:
+  push:
+    branches: [ master ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      S3_ENDPOINT: ${{ secrets.S3_ENDPOINT }}
+      S3_BUCKET_NAME: ${{ secrets.S3_BUCKET_NAME }}
+      AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+      AWS_DEFAULT_REGION: 'us-east-1'
+      SOURCE_DIR: 'dist'
+    steps:
+      - uses: actions/checkout@v2
+      - name: install
+        run: yarn install
+      - name: build
+        run: yarn build
+      - name: deploy to S3
+        run: aws s3 sync $SOURCE_DIR s3://$S3_BUCKET_NAME --follow-symlinks --delete --endpoint-url $S3_ENDPOINT
