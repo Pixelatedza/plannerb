@@ -1,0 +1,448 @@
+[
+  {
+    "inputs": [],
+    "building": "Extractor",
+    "rate": 15,
+    "outputs": [
+      {
+        "item": {
+          "id": "IronOre",
+          "name": "Iron Ore"
+        },
+        "amount": 1,
+        "rate": 15
+      }
+    ]
+  },
+  {
+    "inputs": [],
+    "building": "Extractor",
+    "rate": 15,
+    "outputs": [
+      {
+        "item": {
+          "id": "SulfurOre",
+          "name": "Sulfur Ore"
+        },
+        "amount": 1,
+        "rate": 15
+      }
+    ]
+  },
+  {
+    "inputs": [],
+    "building": "Extractor",
+    "rate": 15,
+    "outputs": [
+      {
+        "item": {
+          "id": "AluminiumOre",
+          "name": "Aluminium Ore"
+        },
+        "amount": 1,
+        "rate": 15
+      }
+    ]
+  },
+  {
+    "inputs": [
+      {
+        "item": {
+          "id": "IronOre",
+          "name": "Iron Ore"
+        },
+        "amount": 3
+      }
+    ],
+    "building": "Factory",
+    "rate": 30,
+    "outputs": [
+      {
+        "item": {
+          "id": "SteelBar",
+          "name": "Steel Bar"
+        },
+        "amount": 1,
+        "rate": 30
+      }
+    ]
+  },
+  {
+    "inputs": [
+      {
+        "item": {
+          "id": "SulfurOre",
+          "name": "Sulfur Ore"
+        },
+        "amount": 3
+      }
+    ],
+    "building": "Factory",
+    "rate": 30,
+    "outputs": [
+      {
+        "item": {
+          "id": "Concrete",
+          "name": "Concrete"
+        },
+        "amount": 1,
+        "rate": 30
+      }
+    ]
+  },
+  {
+    "inputs": [
+      {
+        "item": {
+          "id": "AluminiumOre",
+          "name": "Aluminium Ore"
+        },
+        "amount": 3
+      }
+    ],
+    "building": "Factory",
+    "rate": 30,
+    "outputs": [
+      {
+        "item": {
+          "id": "AluminiumBar",
+          "name": "Aluminium Bar"
+        },
+        "amount": 1,
+        "rate": 30
+      }
+    ]
+  },
+  {
+    "inputs": [
+      {
+        "item": {
+          "id": "SteelBar",
+          "name": "Steel Bar"
+        },
+        "amount": 1
+      },
+      {
+        "item": {
+          "id": "Concrete",
+          "name": "Concrete"
+        },
+        "amount": 1
+      }
+    ],
+    "building": "Factory",
+    "rate": 30,
+    "outputs": [
+      {
+        "item": {
+          "id": "ReinforcedConcrete",
+          "name": "Reinforced Concrete"
+        },
+        "amount": 1,
+        "rate": 30
+      }
+    ]
+  },
+  {
+    "inputs": [
+      {
+        "item": {
+          "id": "SteelBar",
+          "name": "Steel Bar"
+        },
+        "amount": 1
+      }
+    ],
+    "building": "Factory",
+    "rate": 30,
+    "outputs": [
+      {
+        "item": {
+          "id": "MechanicalParts",
+          "name": "Mechanical Parts"
+        },
+        "amount": 1,
+        "rate": 30
+      }
+    ]
+  },
+  {
+    "inputs": [],
+    "building": "Atmospheric Extractor",
+    "rate": 12,
+    "outputs": [
+      {
+        "item": {
+          "id": "O2",
+          "name": "O2"
+        },
+        "amount": 1,
+        "rate": 12
+      }
+    ]
+  },
+  {
+    "inputs": [],
+    "building": "Atmospheric Extractor",
+    "rate": 12,
+    "outputs": [
+      {
+        "item": {
+          "id": "Carbon",
+          "name": "Carbon"
+        },
+        "amount": 1,
+        "rate": 12
+      }
+    ]
+  },
+  {
+    "inputs": [
+      {
+        "item": {
+          "id": "Carbon",
+          "name": "Carbon"
+        },
+        "amount": 3
+      }
+    ],
+    "building": "Factory",
+    "rate": 30,
+    "outputs": [
+      {
+        "item": {
+          "id": "PolymerBar",
+          "name": "Polymer Bar"
+        },
+        "amount": 1,
+        "rate": 30
+      }
+    ]
+  },
+  {
+    "inputs": [
+      {
+        "item": {
+          "id": "AluminiumBar",
+          "name": "Aluminium Bar"
+        },
+        "amount": 2
+      },
+      {
+        "item": {
+          "id": "PolymerBar",
+          "name": "Polymer Bar"
+        },
+        "amount": 1
+      }
+    ],
+    "building": "Factory",
+    "rate": 90,
+    "outputs": [
+      {
+        "item": {
+          "id": "HighTechParts",
+          "name": "High Tech Parts"
+        },
+        "amount": 3,
+        "rate": 90
+      }
+    ]
+  },
+  {
+    "inputs": [],
+    "building": "Ice Extractor",
+    "rate": 5,
+    "outputs": [
+      {
+        "item": {
+          "id": "Nitrogen",
+          "name": "Nitrogen"
+        },
+        "amount": 1,
+        "rate": 5
+      }
+    ]
+  },
+  {
+    "inputs": [],
+    "building": "Ice Extractor",
+    "rate": 5,
+    "outputs": [
+      {
+        "item": {
+          "id": "Water",
+          "name": "Water"
+        },
+        "amount": 1,
+        "rate": 5
+      }
+    ]
+  },
+  {
+    "inputs": [],
+    "building": "Pumping Station",
+    "rate": 30,
+    "outputs": [
+      {
+        "item": {
+          "id": "Water",
+          "name": "Water"
+        },
+        "amount": 1,
+        "rate": 30
+      }
+    ]
+  },
+  {
+    "inputs": [
+      {
+        "item": {
+          "id": "Nitrogen",
+          "name": "Nitrogen"
+        },
+        "amount": 1
+      },
+      {
+        "item": {
+          "id": "Carbon",
+          "name": "Carbon"
+        },
+        "amount": 2
+      }
+    ],
+    "building": "Factory",
+    "rate": 30,
+    "outputs": [
+      {
+        "item": {
+          "id": "Compost",
+          "name": "Compost"
+        },
+        "amount": 1,
+        "rate": 30
+      }
+    ]
+  },
+  {
+    "inputs": [],
+    "building": "Waste Disposal",
+    "rate": 0,
+    "outputs": [
+      {
+        "item": {
+          "id": "MetallicWaste",
+          "name": "Metallic Waste"
+        },
+        "amount": 1,
+        "rate": 0
+      }
+    ]
+  },
+  {
+    "inputs": [],
+    "building": "Waste Disposal",
+    "rate": 0,
+    "outputs": [
+      {
+        "item": {
+          "id": "OrganicWaste",
+          "name": "Organic Waste"
+        },
+        "amount": 1,
+        "rate": 0
+      }
+    ]
+  },
+  {
+    "inputs": [
+      {
+        "item": {
+          "id": "MetallicWaste",
+          "name": "Metallic Waste"
+        },
+        "amount": 3
+      }
+    ],
+    "building": "Recycle Center",
+    "rate": 60,
+    "outputs": [
+      {
+        "item": {
+          "id": "SteelBar",
+          "name": "Steel Bar"
+        },
+        "amount": 2,
+        "rate": 60
+      },
+      {
+        "item": {
+          "id": "AluminiumBar",
+          "name": "Aluminium Bar"
+        },
+        "amount": 1,
+        "rate": 30
+      }
+    ]
+  },
+  {
+    "inputs": [
+      {
+        "item": {
+          "id": "OrganicWaste",
+          "name": "Organic Waste"
+        },
+        "amount": 5
+      },
+      {
+        "item": {
+          "id": "Nitrogen",
+          "name": "Nitrogen"
+        },
+        "amount": 1
+      }
+    ],
+    "building": "Recycle Center",
+    "rate": 30,
+    "outputs": [
+      {
+        "item": {
+          "id": "Compost",
+          "name": "Compost"
+        },
+        "amount": 1,
+        "rate": 30
+      }
+    ]
+  },
+  {
+    "inputs": [
+      {
+        "item": {
+          "id": "Water",
+          "name": "Water"
+        },
+        "amount": 4
+      },
+      {
+        "item": {
+          "id": "Compost",
+          "name": "Compost"
+        },
+        "amount": 1
+      }
+    ],
+    "building": "Green House",
+    "rate": 60,
+    "outputs": [
+      {
+        "item": {
+          "id": "Food",
+          "name": "Food"
+        },
+        "amount": 2,
+        "rate": 60
+      }
+    ]
+  }
+]

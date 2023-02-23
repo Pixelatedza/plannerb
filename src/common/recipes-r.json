@@ -1,0 +1,40 @@
+[
+  {
+    "inputs": [],
+    "building": "Extractor",
+    "rate": 15,
+    "outputs": [
+      {
+        "item": {
+          "id": "IronOre",
+          "name": "Iron Ore"
+        },
+        "amount": 1,
+        "rate": 15
+      }
+    ]
+  },
+  {
+    "inputs": [
+      {
+        "item": {
+          "id": "IronOre",
+          "name": "Iron Ore"
+        },
+        "amount": 3
+      }
+    ],
+    "building": "Factory",
+    "rate": 30,
+    "outputs": [
+      {
+        "item": {
+          "id": "SteelBar",
+          "name": "Steel Bar"
+        },
+        "amount": 1,
+        "rate": 30
+      }
+    ]
+  }
+]
